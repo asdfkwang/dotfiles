@@ -1,0 +1,18 @@
+# ===== Gmail account =====
+set from = "Kwanghoon Son <asdfkwang@gmail.com>"
+set realname = "Kwanghoon Son"
+set imap_user = "asdfkwang@gmail.com"
+set imap_pass = "<GMAIL_APP_PASSWORD>"
+set smtp_url = "smtps://asdfkwang@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = ""
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent Mail"
+
+set sort = threads
+set sort_thread_groups = reverse-last-date-received
+set sort_aux = date-sent
+
+color index brightcyan black "~U !~F"
+color index brightyellow black "~F"
